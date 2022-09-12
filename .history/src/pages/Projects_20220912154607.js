@@ -14,14 +14,7 @@ export default function Projects() {
         <div className="nuevoflex">
           <div className="fixer">
             <section className="imagenesproyect ">
-                              <a
-                  href="https://my-app-seven-lime.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="oli"
-                >
-                
-                </a>
+              <Link to="../webmural">
                 <img className="imagenes" src={webmuralss} alt="this is car" />
                 <div class="overlay">Web Mural</div>
                 <div class="overlay2">

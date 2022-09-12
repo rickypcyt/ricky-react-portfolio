@@ -20,7 +20,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="oli"
                 >
-                
+                  Home
                 </a>
                 <img className="imagenes" src={webmuralss} alt="this is car" />
                 <div class="overlay">Web Mural</div>
