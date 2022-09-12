@@ -1,6 +1,6 @@
 export default function Info() {
   return (
-    <main className="BodyNotes">
+    <body className="BodyNotes">
       <div class="popup-box">
         <div class="popup">
           <div class="content">
@@ -32,6 +32,6 @@ export default function Info() {
       </div>
 
       <script src="script.js"></script>
-    </main>
+    </body>
   );
 }

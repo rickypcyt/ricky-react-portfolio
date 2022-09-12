@@ -1,7 +1,7 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 export default function Info() {
   return (
-    <main>
+    <body>
       <div id="Page">
         <div className="cabecera">
           <h1 className="titulo">Info </h1>
@@ -38,7 +38,7 @@ export default function Info() {
           </nav>
         </div>
       </div>
-    </main>
+    </body>
   );
 }
 

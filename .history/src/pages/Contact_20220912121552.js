@@ -1,7 +1,7 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 export default function Contact() {
   return (
-    <main>
+    <body>
       <div id="Page">
         <div className="cabecera">
           <h1 className="titulo">Contact </h1>
@@ -103,7 +103,7 @@ export default function Contact() {
           </nav>
         </div>
       </div>
-    </main>
+    </body>
   );
 }
 

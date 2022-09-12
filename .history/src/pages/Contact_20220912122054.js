@@ -103,7 +103,7 @@ export default function Contact() {
           </nav>
         </div>
       </div>
-    </main>
+    </ma>
   );
 }
 

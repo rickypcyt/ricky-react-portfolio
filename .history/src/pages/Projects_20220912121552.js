@@ -5,7 +5,7 @@ import notesjs from "../images/notesjs.jpg"; // gives image path
 
 export default function Projects() {
   return (
-    <main>
+    <body>
       <main className="container">
         <div className="cabecera">
           <h1 className="titulo">Projects </h1>
@@ -93,7 +93,7 @@ export default function Projects() {
           </nav>
         </div>
       </main>
-    </main>
+    </body>
   );
 }
 
