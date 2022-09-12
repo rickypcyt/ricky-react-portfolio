@@ -54,7 +54,7 @@ export default function Projects() {
               </div>
             </ol>
           </nav>
-        
+        </div>
       </main>
     </main>
   );

@@ -14,7 +14,18 @@ export default function Info() {
             <div className="homeinfo">
               <p>
                 My name is Ricardo Perez, I'm a front-end developer based in
-                Guayaquil, Ecuador. I have developed many front-end proyects.
+                Guayaquil, Ecuador. I have developed many front-end proyects
+                from well know DJ applications to Ecommerce booking
+                platforms.Informático y empresario estadounidense. Padre del
+                primer ordenador personal y fundador de Apple Computer,
+                probablemente la empresa más innovadora del sector, este mago de
+                la informática fue uno de los más influyentes de la vertiginosa
+                escalada tecnológica en que aún vive el mundo actual,
+                contribuyendo decisivamente a la popularización de la
+                informática. Sus ideas visionarias en el campo de los
+                ordenadores personales, la música digital o la telefonía móvil
+                revolucionaron los mercados y los hábitos de millones de
+                personas durante más de tres décadas.
               </p>
             </div>
           </section>
