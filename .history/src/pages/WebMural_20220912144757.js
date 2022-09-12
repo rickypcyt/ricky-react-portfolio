@@ -34,9 +34,9 @@ const UploadAndDisplayImage = () => {
           <CustomLink to="/" className="oli">
             Home
           </CustomLink>
-          <nav className="oli" onClick={() => handleImageChange(null)}>
+          <div className="oli" onClick={() => handleImageChange(null)}>
             Clear
-          </nav>
+          </d>
           <label for="upload-button">
             <nav>
               <input

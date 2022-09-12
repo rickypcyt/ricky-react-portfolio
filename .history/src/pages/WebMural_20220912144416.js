@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../csswebmural.css";
 
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
@@ -31,9 +32,9 @@ const UploadAndDisplayImage = () => {
     <main>
       <nav className="cabeceranavi">
         <ol>
-          <CustomLink to="/" className="oli">
+          <div CustomLink="../" className="oli">
             Home
-          </CustomLink>
+          </div>
           <nav className="oli" onClick={() => handleImageChange(null)}>
             Clear
           </nav>
