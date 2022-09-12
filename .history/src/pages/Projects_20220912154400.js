@@ -88,7 +88,7 @@ export default function Projects() {
             <ol>
               <div>
                 <a
-                  href="https://my-app-seven-lime.vercel.app/"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="oli"

@@ -87,12 +87,7 @@ export default function Projects() {
           <nav className="cabeceranavi">
             <ol>
               <div>
-                <a
-                  href="https://my-app-seven-lime.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="oli"
-                >
+                <a to="/" className="oli">
                   Home
                 </a>
               </div>
