@@ -2,6 +2,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import webmuralss from "../images/webmuralss.jpg"; // gives image path
 import notesjs from "../images/notesjs.jpg"; // gives image path
 
+
 export default function Projects() {
   return (
     <main>
@@ -13,32 +14,29 @@ export default function Projects() {
         <div className="nuevoflex">
           <div className="fixer">
             <section className="imagenesproyect ">
-              <a
-                href="https://my-app-seven-lime.vercel.app/"
-                rel="noopener noreferrer"
-                className="xd"
-              >
-                <img
-                  className="imagenes"
-                  src={webmuralss}
-                  alt="this is car"
-                ></img>
-                <div class="overlay">WebMural</div>
+                              <a
+                  href="https://my-app-seven-lime.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                
+                </a>
+                <img className="imagenes" src={webmuralss} alt="this is car" />
+                <div class="overlay">Web Mural</div>
                 <div class="overlay2">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s.
                 </div>
-              </a>
             </section>
             <section className="imagenesproyect ">
-              <Link to="../info">
+              <Link to="../notesjs">
                 <img className="imagenes" src={notesjs} alt="this is car" />
-                <div class="overlay">Notes </div>
+                <div class="overlay">Notes</div>
                 <div class="overlay2">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.{" "}
+                  standard dummy text ever since the 1500s.
                 </div>
               </Link>
             </section>

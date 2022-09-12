@@ -13,11 +13,8 @@ export default function Projects() {
         <div className="nuevoflex">
           <div className="fixer">
             <section className="imagenesproyect ">
-              <a
-                href="https://my-app-seven-lime.vercel.app/"
-                rel="noopener noreferrer"
-                className="xd"
-              >
+              <Link to="href="">
+              {"https://google.com" target="_blank" rel="noopener noreferrer"}
                 <img
                   className="imagenes"
                   src={webmuralss}
@@ -29,7 +26,7 @@ export default function Projects() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s.
                 </div>
-              </a>
+              </Link>
             </section>
             <section className="imagenesproyect ">
               <Link to="../info">

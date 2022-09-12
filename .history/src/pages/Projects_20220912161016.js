@@ -15,6 +15,7 @@ export default function Projects() {
             <section className="imagenesproyect ">
               <a
                 href="https://my-app-seven-lime.vercel.app/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="xd"
               >

@@ -14,10 +14,11 @@ export default function Projects() {
           <div className="fixer">
             <section className="imagenesproyect ">
               <a
-                href="https://my-app-seven-lime.vercel.app/"
+                href="https://google.com"
+                target="_blank"
                 rel="noopener noreferrer"
-                className="xd"
               >
+                Click here
                 <img
                   className="imagenes"
                   src={webmuralss}
