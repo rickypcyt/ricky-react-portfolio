@@ -2,7 +2,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 export default function Content() {
     console.log(window.location)
   return (
-    <body className="BodyOriginal">
+    <body class>
       <div id="Page">
         <div className="cabecera">
           <h1 className="titulo">Hey I'm Ricky :)</h1>
