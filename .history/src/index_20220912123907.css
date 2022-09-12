@@ -110,7 +110,6 @@ ul {
 .imagenes {
   display: block;
   height: auto;
-  width: auto;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -189,7 +188,7 @@ ul {
 }
 
 .image-container img {
-  max-width: 100%;
+  max-width: 50%;
   max-height: 225px;
 }
 
@@ -209,10 +208,4 @@ ul {
   }
 }
 
-.image:hover {
-  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 
-.oli:hover {
-  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}

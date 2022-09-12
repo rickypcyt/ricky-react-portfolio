@@ -110,7 +110,6 @@ ul {
 .imagenes {
   display: block;
   height: auto;
-  width: auto;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -209,10 +208,6 @@ ul {
   }
 }
 
-.image:hover {
-  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.oli:hover {
-  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
