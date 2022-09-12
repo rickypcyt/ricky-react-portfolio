@@ -49,8 +49,6 @@ ol {
   line-height: 1.5;
   text-align: end;
   font-size: larger;
-  padding-top: 1%;
-
 }
 .parrafo span {
   display: block;
@@ -81,7 +79,7 @@ ol {
   padding-bottom: 9%;
 }
 .cabeceranavi {
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 p {
   font-weight: bold;
@@ -210,17 +208,15 @@ ul {
   .image-container img {
     max-height: -10px;
   }
-  .cabeceranavi {
+  .cabeceranavi{
     padding-bottom: 7%;
   }
   .homeinfo {
-    font-size: x-large;
-    line-height: 150%;
-  }
+  font-size: x-large;
+  line-height: 300%;
+}
 }
 
 .image:hover {
-  transform: scale(
-    1.15
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
