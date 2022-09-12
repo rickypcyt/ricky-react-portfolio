@@ -35,14 +35,12 @@ export default function Content() {
                 </CustomLink>
               </div>
               <div>
-                <CustomLink to="info" className="oli">
-                  Info
+                <CustomLink to="projects" className="oli">
+                  Projects
                 </CustomLink>
               </div>
-              <div>
-                <CustomLink to="contact" className="oli">
-                  Contact
-                </CustomLink>
+              <div className="oli">
+                <CustomLink to="contact">Contact</CustomLink>
               </div>
             </ol>
           </nav>

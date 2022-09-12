@@ -41,7 +41,7 @@ export default function Content() {
               </div>
               <div>
                 <CustomLink to="contact" className="oli">
-                  Contact
+                  Projects
                 </CustomLink>
               </div>
             </ol>

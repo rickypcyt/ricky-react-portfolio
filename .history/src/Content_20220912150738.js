@@ -29,21 +29,15 @@ export default function Content() {
           </section>
           <nav className="cabeceranavi">
             <ol>
-              <div>
-                <CustomLink to="projects" className="oli">
-                  Projects
-                </CustomLink>
+              <div className="oli">
+                <CustomLink to="/projects">Projects</CustomLink>
               </div>
-              <div>
-                <CustomLink to="info" className="oli">
-                  Info
-                </CustomLink>
-              </div>
-              <div>
-                <CustomLink to="contact" className="oli">
-                  Contact
-                </CustomLink>
-              </div>
+              <CustomLink to="info" className="oli">
+                Info
+              </CustomLink>
+              <CustomLink to="contact" className="oli">
+                Contact
+              </CustomLink>
             </ol>
           </nav>
         </div>

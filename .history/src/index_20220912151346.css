@@ -33,7 +33,7 @@ ol {
   list-style: none;
   display: flex;
   padding: 0;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -208,7 +208,7 @@ ul {
     max-height: -10px;
   }
   .cabeceranavi{
-    padding-bottom: 7%;
+    
   }
 }
 

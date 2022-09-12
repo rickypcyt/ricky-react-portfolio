@@ -86,10 +86,8 @@ export default function Projects() {
           </div>
           <nav className="cabeceranavi">
             <ol>
-              <div>
-                <CustomLink to="/" className="oli">
-                  Home
-                </CustomLink>
+              <div className="oli">
+                <CustomLink to="/">Home</CustomLink>
               </div>
             </ol>
           </nav>

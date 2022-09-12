@@ -90,7 +90,6 @@ export default function Projects() {
                 <CustomLink to="/" className="oli">
                   Home
                 </CustomLink>
-              </div>
             </ol>
           </nav>
         </div>

@@ -31,8 +31,9 @@ const UploadAndDisplayImage = () => {
     <main>
       <nav className="cabeceranavi">
         <ol>
-          <div className="oli">
-            <CustomLink to="/">Home</CustomLink>
+          <div>
+            
+            <CustomLink to="/" className="oli"><div className="oli">Home</div></CustomLink>
           </div>
           <nav className="oli" onClick={() => handleImageChange(null)}>
             Clear
